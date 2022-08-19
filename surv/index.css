@@ -20,6 +20,10 @@ nav{
 	align-items: center;
 	margin-left: auto;
 }
+li:hover{
+	font-size: 25px;
+	border-bottom: 3px orange solid;
+}
 li a{
 	text-decoration: none;
 	color: white;
@@ -60,5 +64,9 @@ li a{
 		clip-path: circle(1500px at 90% -20%);
 		-webkit-clip-path: circle(1500px at 90% -20%);
 		pointer-events: all;
+	}
+	li:hover{
+		font-size: 50px;
+		border-bottom: 3px orange solid;
 	}
 }
